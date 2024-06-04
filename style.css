@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ecf0f1; 
+    color: #34495e; 
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.navbar-title {
+    color: #e74c3c;; /* Orange */
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: auto;
+    transition: color 0.3s; /* Add transition effect */
+}
+
+.navbar-title:hover {
+    color: #f1c40f; /* Lighter orange on hover */
+}
+
+.navbar-links {
+    display: flex;
+    gap: 5px;
+    margin-left: auto;
+}
+
+.navbar-links a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 0.3s, background-color 0.3s; /* Add transition effect */
+}
+
+.navbar-links a:hover {
+    background-color: #3498db; /* Light blue on hover */
+    color: #fff; /* White text on hover */
+}
